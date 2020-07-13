@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.73.0" />
+
+
+<title>Covid19 - Top 20 Counties Confirmed in Texas - My continuous learning in R</title>
+<meta property="og:title" content="Covid19 - Top 20 Counties Confirmed in Texas - My continuous learning in R">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/ranalytica">GitHub</a></li>
+    
+    <li><a href="https://www.reddit.com/user/ranalytica">reddit</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Covid19 - Top 20 Counties Confirmed in Texas</h1>
+
+    
+    <span class="article-date">2020-06-28</span>
+    
+
+    <div class="article-content">
+      
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<link href="/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
+
+
+<pre class="r"><code>library(leaflet)
+library(COVID19)
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+## ✓ tibble  3.0.2     ✓ dplyr   1.0.0
+## ✓ tidyr   1.1.0     ✓ stringr 1.4.0
+## ✓ readr   1.3.1     ✓ forcats 0.5.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(viridisLite)
+library(viridis)</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[27.736286,31.76980765,29.8832777,26.14524221,35.40133773,33.20521901,29.44928723,30.30079133,29.18757369,32.77143818,26.39418217,29.85864939,30.05669873,32.76670599,33.61008596,30.64655664,33.18820114,29.40167322,30.33432034,29.52704478],[-97.5433285,-106.2363275,-94.16434171,-97.48140372,-101.893964,-97.11691153,-98.52019748,-95.50572772,-95.44563172,-97.29101614,-98.18299696,-95.39339521,-98.02944344,-96.7779605,-101.8204789,-97.6004854,-96.57264368,-94.90469073,-97.7853562,-95.77219463],[15.4466824917197,19.0777357147016,11.8861263664829,12.416118556135,11.0417389934738,12.5491035536408,27.6759823673885,10.9672238966842,11.5896505555603,26.6510787774154,17.5145653671451,41.9232632317667,11.8894911581615,36.1253373686669,12.1128031437814,12.2392810246354,13.3551488198372,15.3271001823567,24.1842924229757,13.7956514887844],null,null,{"interactive":true,"className":"","stroke":false,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":["#2D708E","#39558C","#94D740","#2AAF7F","#DCE319","#20A386","#482677","#FDE725","#B8DE29","#453782","#33648E","#440154","#74D056","#481568","#56C667","#3CBB75","#1F968B","#287D8E","#3F4688","#238A8D"],"fillOpacity":0.7},null,null,["County:  Nueces <br> Confirmed:  5965","County:  El Paso <br> Confirmed:  9099","County:  Jefferson <br> Confirmed:  3532","County:  Cameron <br> Confirmed:  3854","County:  Potter <br> Confirmed:  3048","County:  Denton <br> Confirmed:  3937","County:  Bexar <br> Confirmed:  19149","County:  Montgomery <br> Confirmed:  3007","County:  Brazoria <br> Confirmed:  3358","County:  Tarrant <br> Confirmed:  17757","County:  Hidalgo <br> Confirmed:  7669","County:  Harris <br> Confirmed:  43939","County:  Hays <br> Confirmed:  3534","County:  Dallas <br> Confirmed:  32626","County:  Lubbock <br> Confirmed:  3668","County:  Williamson <br> Confirmed:  3745","County:  Collin <br> Confirmed:  4459","County:  Galveston <br> Confirmed:  5873","County:  Travis <br> Confirmed:  14622","County:  Fort Bend <br> Confirmed:  4758"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLegend","args":[{"colors":["#440154","#481568","#482677","#453782","#3F4688","#39558C","#33648E","#2D708E","#287D8E","#238A8D","#1F968B","#20A386","#2AAF7F","#3CBB75","#56C667","#74D056","#94D740","#B8DE29","#DCE319","#FDE725"],"labels":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomright","type":"factor","title":"Ranking","extra":null,"layerId":null,"className":"info legend","group":null}]}],"setView":[[32.30163,-99.89007],5,[]],"limits":{"lat":[26.14524221,35.40133773],"lng":[-106.2363275,-94.16434171]}},"evals":[],"jsHooks":[]}</script>
+<p><img src="/post/2020-07-12-evinvestment-pitch_files/Octocat.png" width="40" height="40" alt="Octocat" /><a href="https://github.com/ranalytica/data_products_leaflet" target="_blank">view mycode</a></p>
+<p><img src="/post/2020-06-30-_files/rpubs.png" width="40" height="40" alt="Rpubs" /><a href="https://rpubs.com/Ranalytica/covid19_TX">view website</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-172504151-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+
