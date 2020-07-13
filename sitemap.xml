@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/tags/golem/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -38,7 +43,22 @@
   </url>
   
   <url>
+    <loc>/categories/shiny/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/07/12/shiny-app-evinvestment/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tidyquant/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   

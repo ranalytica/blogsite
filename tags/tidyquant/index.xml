@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tidyquant on My continuous learning in R</title>
+    <link>/tags/tidyquant/</link>
+    <description>Recent content in tidyquant on My continuous learning in R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tidyquant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shiny app evInvestment</title>
+      <link>/2020/07/12/shiny-app-evinvestment/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/12/shiny-app-evinvestment/</guid>
+      <description> knitr::include_app(&amp;quot;https://ranalytica.shinyapps.io/evInvestment/&amp;quot;, height = &amp;quot;600px&amp;quot;)  </description>
+    </item>
+    
+  </channel>
+</rss>

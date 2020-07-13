@@ -22,6 +22,15 @@ Price History Distribution of Price Trade Volume History Price vs. Volume   Pri
     </item>
     
     <item>
+      <title>Shiny app evInvestment</title>
+      <link>/2020/07/12/shiny-app-evinvestment/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/12/shiny-app-evinvestment/</guid>
+      <description> knitr::include_app(&amp;quot;https://ranalytica.shinyapps.io/evInvestment/&amp;quot;, height = &amp;quot;600px&amp;quot;)  </description>
+    </item>
+    
+    <item>
       <title>Impact of Covid19 in US</title>
       <link>/2020/06/30/impact-of-covid19-in-us/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
