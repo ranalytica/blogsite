@@ -6,10 +6,64 @@
     <description>Recent content in Categories on My continuous learning in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>California Fire</title>
+      <link>/categories/california-fire/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/california-fire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>California Wildfire</title>
+      <link>/categories/california-wildfire/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/california-wildfire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate</title>
+      <link>/categories/climate/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/climate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate Change</title>
+      <link>/categories/climate-change/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/climate-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOAA datasets</title>
+      <link>/categories/noaa-datasets/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/noaa-datasets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Severe Inclement Weather</title>
+      <link>/categories/severe-inclement-weather/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/severe-inclement-weather/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R and Rstudio</title>

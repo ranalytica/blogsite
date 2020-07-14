@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rvest on My continuous learning in R</title>
+    <link>/tags/rvest/</link>
+    <description>Recent content in rvest on My continuous learning in R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rvest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>California Wildfire Analysis</title>
+      <link>/2020/07/13/california-wildfire-analysis/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/13/california-wildfire-analysis/</guid>
+      <description>Purpose The main goal of this analysis to provide insight and prediction using effective visualization and machine learning with NOAA’s data sets.
+ What is Wildfire A wildfire is an uncontrolled/unplanned fire in an area of combustible vegetation occurring in rural areas. Depending on the type of vegetation present, a wildfire can also be classified more specifically as a brush fire, bush fire, desert fire, forest fire, grass fire, hill fire, peat fire, vegetation fire or veld fire.</description>
+    </item>
+    
+  </channel>
+</rss>
