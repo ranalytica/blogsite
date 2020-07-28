@@ -17,7 +17,8 @@
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/07/12/shiny-app-evinvestment/</guid>
-      <description> knitr::include_app(&amp;quot;https://ranalytica.shinyapps.io/evInvestment/&amp;quot;, height = &amp;quot;600px&amp;quot;)  </description>
+      <description> Purpose of this app to show the raw power of R, Shiny combined with Golem Framework.
+ </description>
     </item>
     
   </channel>
